@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan Form Muhammad Nabil al-Hafiz</title>
+		<meta name="author" content="Muhammad Nabil al-Hafiz"
+	</head>
+	<body>
+		<h2>Form Pendaftaran</h2>
+			<form>
+				<table width="100%">
+					<tr>
+						<td>
+							<fieldset>
+								<legend>Data Pribadi</legend>
+									<table cellpadding="5">
+										<tr>
+											<td><label>Nama</label></td>
+											<td>:</td>
+											<td><input placeholder = "Nama Lengkap" type = "text" name="nama" required></td>
+										</tr>
+										<tr>
+											<td><label>Email<label></td>
+											<td>:</td>
+											<td><input type="email" name="email" required></td>
+										</tr>
+										<tr>
+											<td><label>Nomor Telepon</label></td>
+											<td>:</td>
+											<td><input type="tel" name="notelp" required></td>
+										</tr>
+										<tr>
+											<td><label>Alamat</label></td>
+											<td valign="middle">:</td>
+											<td><textarea name="alamat" rows="5" cols="30" required></textarea></td>
+										</tr>
+										<tr>
+											<td><label>Tanggal Lahir</label></td>
+											<td>:</td>
+											<td> <input type="date" name="tanggallahir" required></td>
+										</tr>
+										<tr>
+											<td><label>Jenis Kelamin</label></td>
+											<td>:</td>
+											<td><input type="radio" name="jk" value="Pria" required>Laki-Laki 
+												<input type="radio" name="jk" value="Wanita>" required>Perempuan
+											</td>
+										</tr>
+										<tr>
+											<td><label>Agama</label></td>
+											<td>:</td>
+											<td>
+												<select name="agama" required>
+												<option value="">Pilih Agama</option>
+												<option value="Islam">Islam</option>
+												<option value="Kristen">Kristen</option>
+												<option value="Katholik">Katholik</option>
+												<option value="Hindu">Hindu</option>
+												<option value="Budha">Budha</option>
+												<option value="Konghucu">Konghucu</option>
+											</td>
+										</tr>
+										<tr>
+											<td><label>Pendidikan Terakhir</label></td>
+											<td>:</td>
+											<td>
+												<input type="Radio" name="pendidikan" value="SMA" required> SMA
+												<input type="Radio" name="pendidikan" value="D3"> D3
+												<input type="Radio" name="pendidikan" value="S1"> S1
+											</td>
+										</tr>
+										<tr>
+											<td><label>Pas Foto 3x4<label></td>
+											<td>:</td>
+											<td><input type="file" name="pasfoto" accept="image/*" required></td>
+										</tr>
+										<tr>
+											<td>CV</td>
+											<td>:</td>
+											<td><input type="file" name="cv" accept=".pdf" required></td>
+										</tr>
+									</table>
+							</fieldset>
+						</td>
+						<td valign="top">
+							<fieldset>
+								<legend>Data Orang Tua</legend>
+								<table cellpadding="3">
+									<tr>
+										<td><label>Nama Ayah</label></td>
+										<td>:</td>
+										<td><input placeholder="Nama Lengkap" type="text" name="ayah" required></td>
+									</tr>
+									<tr>
+										<td>Pekerjaan</td>
+										<td>:</td>
+										<td><input type="text" name="pekerjaanayah"></td>
+									</tr>
+									<tr>
+										<td>Alamat</td>
+										<td valign="middle">:</td>
+										<td><textarea name="alamatayah" rows="5" cols="30"></textarea></td>
+									</tr>
+									<tr>
+										<td>Nomor Telepon Ayah</td>
+										<td>:</td>
+										<td><input type="tel" name="nomorayah" required></td>
+									</tr>
+									<tr>
+										<td><label>Nama Ibu</label></td>
+										<td>:</td>
+										<td><input placeholder="Nama Lengkap" type="text" name="ibu" required></td>
+									</tr>
+									<tr>
+										<td>Pekerjaan</td>
+										<td>:</td>
+										<td><input type="text" name="pekerjaanibu" required</td>
+									</tr>
+									<tr>
+										<td>Alamat</td>
+										<td valign="middle">:</td>
+										<td><textarea name="alamatibu" rows="5" cols="30"></textarea></td>
+									</tr>
+									<tr>
+										<td>Nomor Telepon Ibu</td>
+										<td>:</td>
+										<td><input type="tel" name="nomoribu" required></td>
+									</tr>
+									<tr>
+										<td>
+											<input type="submit" value="submit">
+											<input type="reset" value="reset">
+										</td>
+									</tr>
+								</table>
+							</fieldset>
+						</td>
+					</tr>
+				</table>
+			</form>
+	</body>
+</html>
